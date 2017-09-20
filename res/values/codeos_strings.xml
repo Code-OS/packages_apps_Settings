@@ -74,5 +74,7 @@
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
 
+    <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
+
 </resources>
 
