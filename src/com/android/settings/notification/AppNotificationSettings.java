@@ -55,6 +55,8 @@ import com.android.settingslib.RestrictedSwitchPreference;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
+import static android.provider.Settings.System.NOTIFICATION_LIGHT_PULSE;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
