@@ -55,6 +55,12 @@
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
             android:defaultValue="true" />
 
+       <org.codeos.extensions.preference.SystemSettingSwitchPreference
+            android:key="battery_save_mode_color"
+            android:title="@string/battery_saver_color_title"
+            android:summary="@string/battery_saver_color_summary"
+            android:defaultValue="false" />
+
         <SwitchPreference
             android:key="battery_percentage"
             android:title="@string/battery_percentage"
