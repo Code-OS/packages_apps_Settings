@@ -127,6 +127,9 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
+import org.codeos.extensions.PartsFragment;
+import org.codeos.extensions.HeadsUpSettings;
+
 public class SettingsGateway {
 
     /**
@@ -244,6 +247,8 @@ public class SettingsGateway {
             EnterprisePrivacySettings.class.getName(),
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
+            PartsFragment.class.getName(),
+            HeadsUpSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
