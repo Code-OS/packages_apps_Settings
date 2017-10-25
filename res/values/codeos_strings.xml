@@ -18,6 +18,9 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- CodeOS COnfigs -->
+    <string name="codeconfigs_title">CodeOS Configs</string>
+    <string name="codeconfigs_summary">Enhance your experience</string>
 
     <!-- Rom version -->
     <string name="rom_version_title">CODEOS version</string>
