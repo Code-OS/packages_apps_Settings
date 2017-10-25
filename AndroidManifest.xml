@@ -3114,5 +3114,20 @@
             </intent-filter>
         </activity>
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- CodeOS Configs -->
+        <activity android:name="Settings$CodeConfigsActivity"
+                android:label="@string/codeconfigs_title"
+                android:icon="@drawable/ic_settings_codeconfigs">
+            <intent-filter android:priority="10">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.homepage"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.codeos.configs.CodeConfigs" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/codeconfigs_summary" />
+        </activity>
     </application>
 </manifest>
