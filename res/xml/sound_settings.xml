@@ -122,14 +122,11 @@
           android:title="@string/screenshot_sound_title"
           android:defaultValue="true" />
 
-<<<<<<< HEAD
         <!-- Volume adjustment sounds -->
         <SwitchPreference
           android:key="volume_adjust_sounds"
           android:title="@string/volume_adjust_sounds_title" />
 
-=======
->>>>>>> ede57a6... Settings: Disable/Enable screenshot sound [2/2]
         <!-- Touch sounds -->
         <SwitchPreference
           android:key="touch_sounds"
